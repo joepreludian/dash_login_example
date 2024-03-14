@@ -1,0 +1,21 @@
+[project]
+name = "dashoffice"
+version = "0.1.0"
+description = "Dash Project for Backoffice project"
+authors = [
+    {name = "Jonhnatha Trigueiro", email = "joepreludian@gmail.com"},
+]
+dependencies = [
+    "dash>=2.16.1",
+]
+requires-python = ">=3.12"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
