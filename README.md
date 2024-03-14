@@ -21,6 +21,8 @@ In order to create a `htpasswd` file, please run the following command:
 
     $ htpasswd htpasswd <user_you_want_to_create>
 
+For a different example, please check it out: https://kremalicious.com/how-to-quickly-generate-encrypted-logins-on-a-mac-for-htaccess-protected-sites/
+
 # Building app
 
     $ docker compose build
